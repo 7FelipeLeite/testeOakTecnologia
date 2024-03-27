@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de produto</title>
+    <link rel="stylesheet" href="styles/global.css">
+</head>
+<body>
+    <div class="formulary">
+        <form action="">
+            <h2>Cadastro de produto</h1>
+            <hr>
+            <p class="box">
+                Nome do produto<br>
+                <input type="text" name="productName" id="productName" placeholder="Veja Multi-uso">
+            </p>
+            <p class="box">
+                Descrição do produto<br>
+                <input type="text" name="productDescription" id="productDescription" placeholder="Produto de limpeza">
+            </p>
+            <p class="box">
+                Valor do produto<br>
+                <input type="text" name="productValue" id="productValue" placeholder="12,08">
+                <span>R$</span>
+            </p>
+                
+            <fieldset>
+                <legend>Disponibilidade de venda</legend>
+                <div class="radio">
+                    <input type="radio" name="productDisponibility" id="productYes" value="Sim">
+                    <label for="productYes">Sim</label>
+                </div>
+                <div class="radio">
+                    <input type="radio" name="productDisponibility" id="productNo" value="Não">
+                    <label for="productNo">Não</label>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <div class="mainStorage">
+        <div class="storage">
+            <h2>Estoque de produtos</h2>
+            <hr>
+            <div class="title">
+                <span class="nameProduct">Nome</span>
+                <span class="valueProduct">Preço</span>
+            </div>
+            <div class="product">
+                <span class="nameProduct">Veja</span>
+                <span class="valueProduct">12,08</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
